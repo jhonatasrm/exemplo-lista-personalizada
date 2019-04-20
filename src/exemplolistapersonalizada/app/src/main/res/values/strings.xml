@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exemplo Lista Personalizada</string>
+    <string name="vendido">Vendido</string>
+    <string name="_2008">2008</string>
+    <string name="marca">Ford</string>
+    <string name="modelo">Fiesta</string>
+    <string name="cor">Branco</string>
+    <string name="lista_carros">Lista de carros</string>
+</resources>
