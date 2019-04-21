@@ -62,10 +62,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
             android:background="@color/colorRed"
             android:gravity="center"
             android:text="@string/vendido"
-            android:layout_marginTop="8dp"
             android:textColor="@color/colorWhite" />
 
     </LinearLayout>
