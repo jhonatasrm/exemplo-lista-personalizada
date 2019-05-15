@@ -51,7 +51,7 @@ public class ListaCarrosAdapter extends BaseAdapter {
 
         final Carros carro = carros.get(position);
 
-        // identificar TextView's
+        // inicialização dos TextView's presentes na lista
         modelo = view.findViewById(R.id.modelo);
         marca = view.findViewById(R.id.marca);
         ano = view.findViewById(R.id.ano);
@@ -77,6 +77,7 @@ public class ListaCarrosAdapter extends BaseAdapter {
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // exibido um Toast com o modelo do carro, marca, ano, cor e status se vendido ou não
                 Toast.makeText(v.getContext(), ""+carro.getModelo()+"\n"+carro.getMarca()+"\n"+carro.getAno()+"\n"+carro.getCorCarro()+"\n"+carro.getStatusCarro(), Toast.LENGTH_SHORT).show();
             }
         });
