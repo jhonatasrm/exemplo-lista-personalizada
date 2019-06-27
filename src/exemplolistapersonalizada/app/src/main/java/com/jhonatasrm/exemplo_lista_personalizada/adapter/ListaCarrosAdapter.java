@@ -30,21 +30,26 @@ public class ListaCarrosAdapter extends BaseAdapter {
         this.activity = activity;
     }
 
+    // getCount
     @Override
     public int getCount() {
         return carros.size();
     }
 
+    // getItem
     @Override
     public Object getItem(int position) {
         return carros.get(position);
     }
 
+    // getItemId
     @Override
     public long getItemId(int position) {
         return 0;
     }
 
+    
+    // getView
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View view = activity.getLayoutInflater().inflate(R.layout.lista_carros, parent, false);
