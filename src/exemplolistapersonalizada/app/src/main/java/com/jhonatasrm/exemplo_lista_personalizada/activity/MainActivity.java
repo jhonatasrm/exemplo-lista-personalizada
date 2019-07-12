@@ -15,16 +15,18 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
-    ListView lista;
+    // lista do tipo ListView
+    private ListView lista;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // título da Toolbar
         setTitle(R.string.lista_carros);
 
+        // acessando o ID atribuido a lista que será usada
         lista = findViewById(R.id.list_view);
         List<Carros> carros = inicializarCarros();
         ListaCarrosAdapter carrosAdapter = new ListaCarrosAdapter(carros, this);
