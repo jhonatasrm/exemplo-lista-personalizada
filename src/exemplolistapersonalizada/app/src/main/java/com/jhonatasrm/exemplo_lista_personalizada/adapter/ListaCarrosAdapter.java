@@ -15,7 +15,6 @@ import com.jhonatasrm.exemplo_lista_personalizada.model.StatusCarro;
 import java.util.List;
 
 public class ListaCarrosAdapter extends BaseAdapter {
-
     private final List<Carros> carros;
     private final Activity activity;
     private TextView modelo;
@@ -25,6 +24,7 @@ public class ListaCarrosAdapter extends BaseAdapter {
     private TextView corCarro;
     private ImageView foto;
 
+    // método construtor
     public ListaCarrosAdapter(List<Carros> carros, Activity activity) {
         this.carros = carros;
         this.activity = activity;
