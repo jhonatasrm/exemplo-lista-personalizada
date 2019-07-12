@@ -1,7 +1,6 @@
 package com.jhonatasrm.exemplo_lista_personalizada.model;
 
 public class Carros {
-
     String modelo;
     String marca;
     int ano;
@@ -9,6 +8,7 @@ public class Carros {
     StatusCarro statusCarro;
     int fotoCarro;
 
+    // método construtor
     public Carros(String modelo, String marca, int ano, CorCarro corCarro, StatusCarro statusCarro, int fotoCarro) {
         this.modelo = modelo;
         this.marca = marca;
@@ -18,6 +18,7 @@ public class Carros {
         this.fotoCarro = fotoCarro;
     }
 
+    // gets e sets
     public String getModelo() {
         return modelo;
     }
