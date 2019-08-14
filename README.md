@@ -1,4 +1,4 @@
-# Exemplo lista personalizada
+# Exemplo lista personalizada (Java)
 Criação de uma lista personalizada adicionando imagens e texto. O exemplo apresenta os seguintes itens:
 
 * Organização dos pacotes da aplicação
